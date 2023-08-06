@@ -1,0 +1,33 @@
+{
+  "name": "@data-sets/countries",
+  "version": "0.2.0-beta.0",
+  "description": "Static data-set of countries, with additional methods for convenience.",
+  "main": "./index.cjs",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "ts-node -r tsconfig-paths/register ./build.ts",
+    "lint": "eslint --ext .js .",
+    "test": "mocha ./*.test.ts",
+    "preversion": "npm run lint && npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": "https://github.com/someimportantcompany/data-sets",
+  "bugs": "https://github.com/someimportantcompany/data-sets/issues",
+  "homepage": "https://github.com/someimportantcompany/data-sets/tree/master/countries",
+  "author": "James D <james@jdrydn.com> (https://jdrydn.com)",
+  "license": "MIT",
+  "keywords": [
+    "static",
+    "data",
+    "sets",
+    "countries"
+  ],
+  "files": [
+    "*.cjs",
+    "*.d.ts"
+  ],
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 8.0.0"
+  }
+}

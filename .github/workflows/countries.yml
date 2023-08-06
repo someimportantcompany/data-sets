@@ -1,51 +1,39 @@
-name: Countries
+name: countries
 on:
-  - push
-defaults:
-  run:
-    working-directory: ./countries
+  # On push to the countries package
+  push:
+    paths:
+      - ./.github/workflows/countries.yml
+      - ./packages/countries/**
+  # Or whenever run by hand
+  workflow_dispatch:
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    env:
-      NODE_VERSION: 12.x
-    steps:
-      - uses: actions/checkout@v2
-      - name: Use node-${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-      - name: Cache node_modules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-${{ env.NODE_VERSION }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ env.NODE_VERSION }}-
-            ${{ runner.os }}-
-      - run: npm ci
-      - run: npm run lint
 
   test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: lts
+          cache: npm
+      - run: npm ci
+      - run: npm run -w packages/countries lint
+      - run: npm run -w packages/countries test
+
+  node-versions:
     name: node-${{ matrix.node }}
     runs-on: ubuntu-latest
-    needs: lint
+    needs: test
     strategy:
       matrix:
-        node: [ '8.x', '10.x', '12.x', '14.x', '16.x' ]
+        node: [ 12, 14, 16, 18, 20 ]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Use node-${{ matrix.node }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-      - name: Cache node_modules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-${{ matrix.node }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ matrix.node }}-
-            ${{ runner.os }}-
+          cache: npm
       - run: npm ci
-      - run: npm test
+      - run: npm run -w packages/countries test

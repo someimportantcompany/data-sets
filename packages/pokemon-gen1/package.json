@@ -1,0 +1,32 @@
+{
+  "name": "@data-sets/pokemon-gen1",
+  "version": "0.1.0-beta.0",
+  "description": "Static data set from Pokémon Gen #1, with additional methods for convenience.",
+  "scripts": {
+    "build": "ts-node -r tsconfig-paths/register ./build.ts",
+    "lint": "eslint --ext .js .",
+    "test": "nyc mocha ./*.test.ts",
+    "postinstall": "node -e 'console.log(require(\"./index.cjs\").copyrightMessage)'",
+    "preversion": "npm run lint && npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": "https://github.com/someimportantcompany/data-sets",
+  "bugs": "https://github.com/someimportantcompany/data-sets/issues",
+  "homepage": "https://github.com/someimportantcompany/data-sets/tree/master/countries",
+  "author": "James D <james@jdrydn.com> (https://jdrydn.com)",
+  "license": "MIT",
+  "keywords": [
+    "static",
+    "data",
+    "sets",
+    "countries"
+  ],
+  "files": [
+    "*.cjs",
+    "*.d.ts"
+  ],
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 8.0.0"
+  }
+}
