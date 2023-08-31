@@ -1,4 +1,5 @@
 import bunyan, { LogLevel } from 'bunyan';
+
 const { LOG_LEVEL, LOG_NAME } = process.env;
 
 export default bunyan.createLogger({

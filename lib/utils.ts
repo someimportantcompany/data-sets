@@ -3,8 +3,8 @@ export function compareValues(rows: Record<string, string | string[]>[]) {
   const counts: Record<string, number> = {};
   const total = rows.length;
 
-  const countValue = (row: Record<string, any>, key: string): boolean => Boolean(key in row && row[key] &&
-    (Array.isArray(row[key]) || typeof row[key] === 'string') && row[key].length);
+  const countValue = (row: Record<string, any>, key: string): boolean => Boolean(key in row && row[key]
+    && (Array.isArray(row[key]) || typeof row[key] === 'string') && row[key].length);
   const getResult = (count: number): string => {
     if (count === total) {
       return '✅';

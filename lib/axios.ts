@@ -3,7 +3,7 @@ import ms from 'ms';
 
 export const json = axios.create({
   headers: {
-    'User-Agent': '@data-sets/axios (https://github.com/someimportantcompany/data-sets/blob/master/lib/axios.ts)'
+    'User-Agent': '@data-sets/axios (https://github.com/someimportantcompany/data-sets/blob/master/lib/axios.ts)',
   },
   responseType: 'json',
   timeout: ms('30s'),

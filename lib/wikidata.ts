@@ -40,8 +40,7 @@ export function compareValues(rows: Awaited<ReturnType<typeof sparql>>) {
   const total = results.length;
 
   const hasOwnProperty = (o: Record<string, any>, k: string) => Object.prototype.hasOwnProperty.call(o, k);
-  const countValue = (row: Record<string, any>, key: string) =>
-    hasOwnProperty(row, key) && hasOwnProperty(row[key], 'value');
+  const countValue = (row: Record<string, any>, key: string) => hasOwnProperty(row, key) && hasOwnProperty(row[key], 'value');
 
   fields.forEach(field => counts[field] = results.filter(r => countValue(r, field)).length);
 
@@ -63,7 +62,7 @@ export function parseProperty(
   key: string,
   format?: 'QID' | 'GROUP_CONCAT(STRING)' | 'LATLON',
 ): string[] | string | [string, string] | undefined {
-  let value: string | undefined = _get(row, key);
+  const value: string | undefined = _get(row, key);
 
   if (typeof value === 'string' && format) {
     let formatted: string[] | string | [number, number] | undefined;
@@ -84,9 +83,9 @@ export function parseProperty(
         case 'LATLON': {
           assert(value.startsWith('Point(') && value.endsWith(')') && value.includes(' '),
             'Expected argument to be a GPS point');
-          const [lat, lon] = value.substring('POINT('.length, value.length - 1).split(' ');
+          const [ lat, lon ] = value.substring('POINT('.length, value.length - 1).split(' ');
           assert(lat && lon, 'Expected lat/lon to be set');
-          formatted = [lat, lon];
+          formatted = [ lat, lon ];
           break;
         }
 

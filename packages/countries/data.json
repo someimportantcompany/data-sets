@@ -266,7 +266,7 @@
       "-59.5525",
       "13.17"
     ],
-    "emergencyPhone": "911",
+    "emergencyPhone": "311",
     "geonameId": "3374084",
     "internetTlds": [
       ".bb"
@@ -689,7 +689,7 @@
       "8.231973",
       "46.798562"
     ],
-    "emergencyPhone": "140",
+    "emergencyPhone": "112",
     "geonameId": "2658434",
     "internetTlds": [
       ".ch",
@@ -835,7 +835,7 @@
     "phonePrefix": "+53",
     "currencyId": "Q201505",
     "currencyCode": "CUP",
-    "population": "11181595",
+    "population": "10985974",
     "latlon": [
       "-79.5",
       "22.0"
@@ -858,8 +858,8 @@
     "currencyCode": "CVE",
     "population": "555988",
     "latlon": [
-      "-24.083333333",
-      "15.916666666"
+      "-23.7",
+      "15.3"
     ],
     "emergencyPhone": "130",
     "geonameId": "3374766",
@@ -1093,7 +1093,7 @@
       "38.25",
       "15.483333"
     ],
-    "emergencyPhone": "113",
+    "emergencyPhone": "114",
     "geonameId": "338010",
     "internetTlds": [
       ".er"
@@ -1135,7 +1135,7 @@
       "40.0",
       "9.0"
     ],
-    "emergencyPhone": "907",
+    "emergencyPhone": "911",
     "geonameId": "337996",
     "internetTlds": [
       ".et"
@@ -1283,7 +1283,7 @@
       "-61.666667",
       "12.116667"
     ],
-    "emergencyPhone": "911",
+    "emergencyPhone": "434",
     "geonameId": "3580239",
     "internetTlds": [
       ".gd"
@@ -1388,7 +1388,7 @@
       "10.0",
       "1.5"
     ],
-    "emergencyPhone": "112",
+    "emergencyPhone": "115",
     "geonameId": "2309096",
     "internetTlds": [
       ".gq"
@@ -1404,7 +1404,7 @@
     "phonePrefix": "+30",
     "currencyId": "Q4916",
     "currencyCode": "EUR",
-    "population": "10432481",
+    "population": "10482487",
     "latlon": [
       "23.0",
       "38.5"
@@ -1552,7 +1552,7 @@
     "phonePrefix": "+36",
     "currencyId": "Q47190",
     "currencyCode": "HUF",
-    "population": "9604000",
+    "population": "9604080",
     "latlon": [
       "19.0",
       "47.0"
@@ -1642,21 +1642,21 @@
       "83.0",
       "22.8"
     ],
-    "emergencyPhone": "101",
+    "emergencyPhone": "112",
     "geonameId": "1269750",
     "internetTlds": [
-      ".ভারত",
-      ".ଭାରତ",
-      ".ഭാരതം",
-      ".ಭಾರತ",
-      ".ভাৰত",
       ".in",
       ".ਭਾਰਤ",
       ".இந்தியா",
       ".భారత్",
+      ".ভারত",
       ".ભારત",
       ".بھارت",
-      ".भारत"
+      ".भारत",
+      ".ଭାରତ",
+      ".ഭാരതം",
+      ".ಭಾರತ",
+      ".ভাৰত"
     ],
     "continent": "Asia",
     "capitalCity": "New Delhi"
@@ -1733,7 +1733,7 @@
     "phonePrefix": "+39",
     "currencyId": "Q4916",
     "currencyCode": "EUR",
-    "population": "60317000",
+    "population": "58850717",
     "latlon": [
       "12.5",
       "42.5"
@@ -2035,7 +2035,7 @@
       "35.766667",
       "33.833333"
     ],
-    "emergencyPhone": "112",
+    "emergencyPhone": "160",
     "geonameId": "272103",
     "internetTlds": [
       ".lb"
@@ -2120,7 +2120,7 @@
       "-9.75",
       "6.533333"
     ],
-    "emergencyPhone": "114",
+    "emergencyPhone": "911",
     "geonameId": "2275384",
     "internetTlds": [
       ".lr"
@@ -2500,7 +2500,7 @@
       "57.5",
       "-20.2"
     ],
-    "emergencyPhone": "115",
+    "emergencyPhone": "112",
     "geonameId": "934292",
     "internetTlds": [
       ".mu"
@@ -2794,7 +2794,7 @@
       "57.0",
       "21.0"
     ],
-    "emergencyPhone": "968",
+    "emergencyPhone": "112",
     "geonameId": "286963",
     "internetTlds": [
       ".om"
@@ -2914,13 +2914,13 @@
     "iso3": "POL",
     "phonePrefix": "+48",
     "currencyId": "Q123213",
-    "currencyCode": "PLN",
+    "currencyCode": "PLZ",
     "population": "38382576",
     "latlon": [
       "19.0",
       "52.0"
     ],
-    "emergencyPhone": "112",
+    "emergencyPhone": "997",
     "geonameId": "798544",
     "internetTlds": [
       ".pl"
@@ -3004,7 +3004,7 @@
       "51.212767",
       "25.269535"
     ],
-    "emergencyPhone": "112",
+    "emergencyPhone": "999",
     "geonameId": "289688",
     "internetTlds": [
       ".qa"
@@ -3276,7 +3276,7 @@
     "iso3": "SLE",
     "phonePrefix": "+232",
     "currencyId": "Q4587",
-    "currencyCode": "SLE",
+    "currencyCode": "SLL",
     "population": "7557212",
     "latlon": [
       "-12.1",
@@ -3639,7 +3639,7 @@
       "-174.810278",
       "-20.587778"
     ],
-    "emergencyPhone": "911",
+    "emergencyPhone": "933",
     "geonameId": "4032283",
     "internetTlds": [
       ".to"
@@ -3723,7 +3723,7 @@
       "121.0",
       "24.0"
     ],
-    "emergencyPhone": "119",
+    "emergencyPhone": "110",
     "geonameId": "1668284",
     "internetTlds": [
       ".tw"
@@ -4023,7 +4023,7 @@
       ".za"
     ],
     "continent": "Africa",
-    "capitalCity": "Bloemfontein"
+    "capitalCity": "Cape Town"
   },
   {
     "id": "Q953",

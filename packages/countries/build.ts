@@ -2,13 +2,14 @@
  * Build script for @data-sets/countries
  * @link https://download.geonames.org/export/dump/
  */
-import assert from 'http-assert-plus';
 import fs from 'fs';
 import path from 'path';
+import _startCase from 'lodash/startCase';
+import assert from 'http-assert-plus';
 
 import logger from '@/lib/logger';
 import sparql, { parseProperty } from '@/lib/wikidata';
-import { buildDataSetMaps, DataSetMaps } from '@/lib/templates';
+import { buildFile, DataSetMaps } from '@/lib/templates';
 import { compareValues } from '@/lib/utils';
 import type { CountryRecord } from './index';
 
@@ -111,7 +112,7 @@ function pushToIndex(
 function pushToIndex(
   index: Record<string, string | Record<string, any>> | undefined,
   key: string | undefined,
-  value: Record<string, any> | string
+  value: Record<string, any> | string,
 ): Record<string, string | Record<string, any>> | undefined {
   if (typeof key === 'string') {
     assert(index === undefined || !index[key], new Error(`Duplicate entry: ${key}`));
@@ -130,20 +131,47 @@ function pushToIndex(
     logger.info({
       length: rows.length,
       countryCodes: rows.map(({ iso2 }) => iso2),
-      sample: rows.filter(({ iso2 }) => ['US', 'GB'].includes(iso2)),
+      sample: rows.filter(({ iso2 }) => [ 'US', 'GB' ].includes(iso2)),
     }, 'Loaded country info');
+
+    fs.writeFileSync(path.resolve(__dirname, './data.json'), JSON.stringify(rows, null, 2));
 
     const data = rows.reduce((maps: DataSetMaps, record) => {
       maps.primaryIndex = pushToIndex(maps.primaryIndex, record.id, record);
       maps.indexByIso2 = pushToIndex(maps.indexByIso2, record.iso2, record.id);
+      maps.indexByIso3 = pushToIndex(maps.indexByIso3, record.iso3, record.id);
       return maps;
     }, {
       primaryIndex: {},
     });
-    fs.writeFileSync(path.resolve(__dirname, './data.cjs'), buildDataSetMaps(data, {
-      generatedBy: 'packages/countries/build.ts',
-    }));
-    fs.writeFileSync(path.resolve(__dirname, './data.json'), JSON.stringify(rows, null, 2));
+    fs.writeFileSync(path.resolve(__dirname, './data.cjs'), buildFile([
+      { type: 'header', data: { source: 'packages/countries/build.ts' } },
+      { type: 'maps.cjs', data },
+    ]));
+
+    fs.writeFileSync(path.resolve(__dirname, './data.d.ts'), buildFile([
+      { type: 'header', data: { source: 'packages/countries/build.ts' } },
+      { type: 'union-types.d.ts', data: { CountryCodes: rows.map(({ iso2 }) => iso2) } },
+    ]));
+
+    fs.writeFileSync(path.resolve(__dirname, './data.md'), buildFile([
+      {
+        type: 'data.md',
+        data: {
+          source: 'packages/countries/build.ts',
+          head: Object.keys(rows[0]).map(key => `\`${key}\``),
+          rows: rows.map(row => Object.entries(row).map(([ key, value ]) => {
+            if (key === 'latlon') {
+              return (Array.isArray(value) ? value : [ value ]).join(', ');
+            } else if (typeof value === 'string') {
+              return value;
+            } else {
+              return JSON.stringify(value);
+            }
+          })),
+        },
+      },
+    ]));
 
     process.exit(0);
   } catch (err) {

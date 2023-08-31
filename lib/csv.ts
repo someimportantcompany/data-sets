@@ -1,5 +1,5 @@
-import assert from 'http-assert-plus';
 import fs from 'fs';
+import assert from 'http-assert-plus';
 import * as csv from 'csv-parse';
 
 import logger from './logger';

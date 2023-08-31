@@ -6,8 +6,8 @@
   "types": "./index.d.ts",
   "scripts": {
     "build": "ts-node -r tsconfig-paths/register ./build.ts",
-    "lint": "eslint --ext .js .",
-    "test": "mocha ./*.test.ts",
+    "lint": "eslint --ext .js,.ts .",
+    "test": "mocha",
     "preversion": "npm run lint && npm test",
     "postversion": "git push && git push --tags"
   },
@@ -24,10 +24,26 @@
   ],
   "files": [
     "*.cjs",
-    "*.d.ts"
+    "*.d.ts",
+    "*.md"
   ],
   "engines": {
     "node": ">= 12.0.0",
     "npm": ">= 8.0.0"
+  },
+  "mocha": {
+    "exit": true,
+    "recursive": true,
+    "reporter": "spec",
+    "require": [
+      "ts-node/register",
+      "tsconfig-paths/register"
+    ],
+    "ignore": [
+      "**/node_modules"
+    ],
+    "spec": [
+      "./{,!(node_modules)/**}/*.test.{,+(js|ts)}"
+    ]
   }
 }

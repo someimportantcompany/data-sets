@@ -1,3 +1,5 @@
+export { CountryCodes } from './data';
+
 export type CountryRecord = {
   id: string,
   name: string,
@@ -7,10 +9,10 @@ export type CountryRecord = {
   currencyId: string,
   currencyCode: string,
   population: string,
-  latlon?: [string, string],
+  latlon: [string, string],
   emergencyPhone: string,
   geonameId: string,
-  internetTlds?: string[],
+  internetTlds: string[],
   // timezones?: string[],
   // languages?: string[],
   continent: string,
@@ -26,4 +28,9 @@ export { data };
 /**
  * Find a country by its country code.
  */
-export function findByIso2(code: string): CountryRecord | undefined;
+export function findByCode(code: string): CountryRecord | undefined;
+
+export default {
+  data,
+  findByCode,
+};
