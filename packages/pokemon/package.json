@@ -1,12 +1,11 @@
 {
-  "name": "@data-sets/pokemon-gen1",
+  "name": "@data-sets/pokemon",
   "version": "0.1.0-beta.0",
   "description": "Static data set from Pokémon Gen #1, with additional methods for convenience.",
   "scripts": {
     "build": "ts-node -r tsconfig-paths/register ./build.ts",
     "lint": "eslint --ext .js .",
-    "test": "nyc mocha ./*.test.ts",
-    "postinstall": "node -e 'console.log(require(\"./index.cjs\").copyrightMessage)'",
+    "notpostzinstall": "node -e 'console.log(require(\"./index.cjs\").copyrightMessage)'",
     "preversion": "npm run lint && npm test",
     "postversion": "git push && git push --tags"
   },
