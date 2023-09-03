@@ -6,7 +6,7 @@ import logger from './logger';
 
 export function parseCSV(input: fs.ReadStream, { columns, filter, fromLine }: {
   columns: boolean | string[],
-  filter: (record: Record<string, any>) => boolean,
+  filter: (record: Record<string, any>) => boolean, // eslint-disable-line no-unused-vars
   fromLine?: number,
 }): Promise<Record<string, any>[]> {
   assert(typeof filter === 'function', new TypeError('Expected filter to be a function'));
@@ -26,7 +26,7 @@ export function parseCSV(input: fs.ReadStream, { columns, filter, fromLine }: {
 
     parser.on('readable', () => {
       let record;
-      while ((record = parser.read()) !== null) {
+      while ((record = parser.read()) !== null) { // eslint-disable-line no-cond-assign
         if (record && filter(record)) {
           results.push(record);
         }

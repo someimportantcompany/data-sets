@@ -39,6 +39,7 @@
     "import/no-extraneous-dependencies": "off",
     "import/no-relative-packages": "off",
     "import/prefer-default-export": "off",
+    "import/order": "off",
     "import/extensions": ["error", "ignorePackages", { "js": "never", "jsx": "never", "ts": "never", "tsx": "never" }],
     "no-use-before-define": ["error", { "functions": false }],
     "no-else-return": "off",
@@ -66,6 +67,13 @@
       "rules": {
         "require-jsdoc": "off",
         "no-unused-vars": "off"
+      }
+    },
+    {
+      "files": ["*.ts", "**/*.ts"],
+      "rules": {
+        "no-console": "off",
+        "require-jsdoc": "off"
       }
     },
     {

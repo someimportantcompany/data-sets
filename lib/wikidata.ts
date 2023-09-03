@@ -24,7 +24,7 @@ export default async function sparql(query: string): Promise<Record<string, any>
     if (err.response?.status) {
       logger.error({ err, req: _pick(err.config, reqFields), res: _pick(err.response, resFields) });
       const { status, headers, data } = err;
-      assert.fail(status, 'An error occurred', { res: { status, headers, data } });
+      throw assert.fail(status, 'An error occurred', { res: { status, headers, data } });
     } else {
       logger.error({ err, req: _pick(err.config, reqFields) });
       throw err;
@@ -40,7 +40,8 @@ export function compareValues(rows: Awaited<ReturnType<typeof sparql>>) {
   const total = results.length;
 
   const hasOwnProperty = (o: Record<string, any>, k: string) => Object.prototype.hasOwnProperty.call(o, k);
-  const countValue = (row: Record<string, any>, key: string) => hasOwnProperty(row, key) && hasOwnProperty(row[key], 'value');
+  const countValue = (row: Record<string, any>, key: string) => hasOwnProperty(row, key)
+    && hasOwnProperty(row[key], 'value');
 
   fields.forEach(field => counts[field] = results.filter(r => countValue(r, field)).length);
 
@@ -53,11 +54,13 @@ export function compareValues(rows: Awaited<ReturnType<typeof sparql>>) {
   ]));
 }
 
+/* eslint-disable no-redeclare, no-unused-vars */
 export function parseProperty(row: any, key: string): string | undefined;
 export function parseProperty(row: any, key: string, format?: 'QID'): string | undefined;
 export function parseProperty(row: any, key: string, format?: 'GROUP_CONCAT(STRING)'): string[] | undefined;
 export function parseProperty(row: any, key: string, format?: 'LATLON'): [string, string] | undefined;
-export function parseProperty(
+/* eslint-enable no-redeclare, no-unused-vars */
+export function parseProperty( // eslint-disable-line no-redeclare
   row: any,
   key: string,
   format?: 'QID' | 'GROUP_CONCAT(STRING)' | 'LATLON',
@@ -96,6 +99,7 @@ export function parseProperty(
 
       return formatted;
     } catch (err) {
+      // eslint-disable-next-line no-unused-expressions
       (process.env.NODE_ENV !== 'testing') && console.error(key, value, err);
       return undefined;
     }

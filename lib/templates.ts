@@ -24,7 +24,8 @@ export function buildFile(blocks: Block[]): string {
       case 'maps.cjs': return Object.entries(data)
         .reduce((lines: string[], [ name, map ]) => lines.concat([
           `module.exports.${name} = (new Map())`,
-          Object.entries(map).map(([ key, value ]) => `.set(${JSON.stringify(key)}, ${JSON.stringify(value)})`, []).join(''),
+          Object.entries(map).map(([ key, value ]) => `.set(${JSON.stringify(key)}, ${JSON.stringify(value)})`, [])
+            .join(''),
         ]), [])
         .join('\n');
 
@@ -54,5 +55,5 @@ export function buildFile(blocks: Block[]): string {
 
       default: return '';
     }
-  }).join('\n');
+  }).concat('').join('\n');
 }
