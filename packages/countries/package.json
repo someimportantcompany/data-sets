@@ -1,6 +1,6 @@
 {
   "name": "@data-sets/countries",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Static data-set of countries, with additional methods for convenience.",
   "main": "./index.cjs",
   "types": "./index.d.ts",
