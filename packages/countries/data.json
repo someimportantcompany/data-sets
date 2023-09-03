@@ -33,11 +33,11 @@
       "54.3",
       "24.4"
     ],
-    "emergencyPhone": "112",
+    "emergencyPhone": "998",
     "geonameId": "290557",
     "internetTlds": [
-      ".ae",
-      ".امارات"
+      ".امارات",
+      ".ae"
     ],
     "continent": "Asia",
     "capitalCity": "Abu Dhabi"
@@ -266,7 +266,7 @@
       "-59.5525",
       "13.17"
     ],
-    "emergencyPhone": "311",
+    "emergencyPhone": "911",
     "geonameId": "3374084",
     "internetTlds": [
       ".bb"
@@ -541,7 +541,7 @@
       "23.7",
       "-22.2"
     ],
-    "emergencyPhone": "911",
+    "emergencyPhone": "998",
     "geonameId": "933860",
     "internetTlds": [
       ".bw"
@@ -689,7 +689,7 @@
       "8.231973",
       "46.798562"
     ],
-    "emergencyPhone": "112",
+    "emergencyPhone": "144",
     "geonameId": "2658434",
     "internetTlds": [
       ".ch",
@@ -774,13 +774,13 @@
       "103.451944444",
       "35.844722222"
     ],
-    "emergencyPhone": "110",
+    "emergencyPhone": "119",
     "geonameId": "1814991",
     "internetTlds": [
+      ".cn",
       ".公司",
       ".中国",
-      ".中國",
-      ".cn"
+      ".中國"
     ],
     "continent": "Asia",
     "capitalCity": "Beijing"
@@ -1135,7 +1135,7 @@
       "40.0",
       "9.0"
     ],
-    "emergencyPhone": "911",
+    "emergencyPhone": "907",
     "geonameId": "337996",
     "internetTlds": [
       ".et"
@@ -1388,7 +1388,7 @@
       "10.0",
       "1.5"
     ],
-    "emergencyPhone": "115",
+    "emergencyPhone": "112",
     "geonameId": "2309096",
     "internetTlds": [
       ".gq"
@@ -1620,11 +1620,11 @@
       "35.0",
       "31.0"
     ],
-    "emergencyPhone": "101",
+    "emergencyPhone": "100",
     "geonameId": "294640",
     "internetTlds": [
-      "ישראל.",
-      ".il"
+      ".il",
+      "ישראל."
     ],
     "continent": "Asia",
     "capitalCity": "Jerusalem"
@@ -1642,9 +1642,13 @@
       "83.0",
       "22.8"
     ],
-    "emergencyPhone": "112",
+    "emergencyPhone": "108",
     "geonameId": "1269750",
     "internetTlds": [
+      ".ଭାରତ",
+      ".ഭാരതം",
+      ".ಭಾರತ",
+      ".ভাৰত",
       ".in",
       ".ਭਾਰਤ",
       ".இந்தியா",
@@ -1652,11 +1656,7 @@
       ".ভারত",
       ".ભારત",
       ".بھارت",
-      ".भारत",
-      ".ଭାରତ",
-      ".ഭാരതം",
-      ".ಭಾರತ",
-      ".ভাৰত"
+      ".भारत"
     ],
     "continent": "Asia",
     "capitalCity": "New Delhi"
@@ -1886,7 +1886,7 @@
       "173.033333333",
       "1.466666666"
     ],
-    "emergencyPhone": "194",
+    "emergencyPhone": "192",
     "geonameId": "4030945",
     "internetTlds": [
       ".ki"
@@ -2205,11 +2205,11 @@
       "25.0",
       "57.0"
     ],
-    "emergencyPhone": "112",
+    "emergencyPhone": "113",
     "geonameId": "458258",
     "internetTlds": [
-      ".eu",
-      ".lv"
+      ".lv",
+      ".eu"
     ],
     "continent": "Europe",
     "capitalCity": "Riga"
@@ -2542,7 +2542,7 @@
       "34.0",
       "-13.0"
     ],
-    "emergencyPhone": "999",
+    "emergencyPhone": "990",
     "geonameId": "927384",
     "internetTlds": [
       ".mw"
@@ -2836,7 +2836,7 @@
       "-76.0",
       "-9.4"
     ],
-    "emergencyPhone": "911",
+    "emergencyPhone": "111",
     "geonameId": "3932488",
     "internetTlds": [
       ".pe"
@@ -2914,13 +2914,13 @@
     "iso3": "POL",
     "phonePrefix": "+48",
     "currencyId": "Q123213",
-    "currencyCode": "PLZ",
+    "currencyCode": "PLN",
     "population": "38382576",
     "latlon": [
       "19.0",
       "52.0"
     ],
-    "emergencyPhone": "997",
+    "emergencyPhone": "112",
     "geonameId": "798544",
     "internetTlds": [
       ".pl"
@@ -3068,7 +3068,7 @@
       "94.25",
       "66.416666666"
     ],
-    "emergencyPhone": "112",
+    "emergencyPhone": "102",
     "geonameId": "2017370",
     "internetTlds": [
       ".ru",
@@ -3639,7 +3639,7 @@
       "-174.810278",
       "-20.587778"
     ],
-    "emergencyPhone": "933",
+    "emergencyPhone": "911",
     "geonameId": "4032283",
     "internetTlds": [
       ".to"
@@ -3723,7 +3723,7 @@
       "121.0",
       "24.0"
     ],
-    "emergencyPhone": "110",
+    "emergencyPhone": "119",
     "geonameId": "1668284",
     "internetTlds": [
       ".tw"
@@ -4023,7 +4023,7 @@
       ".za"
     ],
     "continent": "Africa",
-    "capitalCity": "Cape Town"
+    "capitalCity": "Pretoria"
   },
   {
     "id": "Q953",

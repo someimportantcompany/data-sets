@@ -2,10 +2,9 @@
  * Build script for @data-sets/countries
  * @link https://download.geonames.org/export/dump/
  */
+import assert from 'http-assert-plus';
 import fs from 'fs';
 import path from 'path';
-import _startCase from 'lodash/startCase';
-import assert from 'http-assert-plus';
 
 import logger from '@/lib/logger';
 import sparql, { parseProperty } from '@/lib/wikidata';
@@ -99,6 +98,7 @@ async function fetchData(): Promise<CountryRecord[]> {
   }));
 }
 
+/* eslint-disable no-unused-vars, no-redeclare */
 function pushToIndex(
   index: Record<string, Record<string, any>> | undefined,
   key: string,
@@ -121,6 +121,7 @@ function pushToIndex(
     return index;
   }
 }
+/* eslint-enable no-unused-vars, no-redeclare */
 
 (async () => {
   /* eslint-disable no-process-exit */
@@ -137,6 +138,7 @@ function pushToIndex(
     fs.writeFileSync(path.resolve(__dirname, './data.json'), JSON.stringify(rows, null, 2));
 
     const data = rows.reduce((maps: DataSetMaps, record) => {
+      /* eslint-disable no-param-reassign */
       maps.primaryIndex = pushToIndex(maps.primaryIndex, record.id, record);
       maps.indexByIso2 = pushToIndex(maps.indexByIso2, record.iso2, record.id);
       maps.indexByIso3 = pushToIndex(maps.indexByIso3, record.iso3, record.id);
