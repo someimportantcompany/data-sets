@@ -1,36 +1,24 @@
-export { CountryCodes } from './data';
-
 export type CountryRecord = {
-  id: string,
-  name: string,
-  iso2: string,
-  iso3: string,
-  phonePrefix: string,
-  currencyId: string,
-  currencyCode: string,
-  population: string,
-  latlon: [string, string],
-  emergencyPhone: string,
-  geonameId: string,
-  internetTlds: string[],
-  // timezones?: string[],
-  // languages?: string[],
-  continent: string,
-  capitalCity: string,
+  name: string;
+  iso2: string;
+  iso3: string;
+  continent: string;
+  capitalCity: string;
+  phonePrefix: string;
+  currencyCode: string;
+  population: number;
 };
 
-/**
- * List all countries.
- */
-const data: CountryRecord[];
-export { data };
+export const data: CountryRecord[];
 
-/**
- * Find a country by its country code.
- */
 export function findByCode(code: string): CountryRecord | undefined;
+export function findByName(name: string): CountryRecord | undefined;
+export function findByContinent(continent: string): CountryRecord[];
 
-export default {
-  data,
-  findByCode,
+declare const countries: {
+  data: CountryRecord[];
+  findByCode: typeof findByCode;
+  findByName: typeof findByName;
+  findByContinent: typeof findByContinent;
 };
+export default countries;

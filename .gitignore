@@ -1,8 +1,5 @@
-*.nyc_output/
+.claude/
 *coverage/
-*node_modules/
-tmp/
-!tmp/.gitkeep
-
+node_modules/
 *.DS_Store
 *.envrc

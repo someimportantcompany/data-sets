@@ -1,7 +1,7 @@
 {
-  "name": "@data-sets/pokemon",
+  "name": "@data-sets/currencies",
   "version": "1.0.0",
-  "description": "Static data-set of Gen 1 Pokemon, with lookup methods for convenience.",
+  "description": "Static data-set of ISO 4217 currencies, with lookup methods for convenience.",
   "type": "module",
   "main": "./index.js",
   "types": "./index.d.ts",
@@ -11,10 +11,10 @@
   },
   "repository": "https://github.com/someimportantcompany/data-sets",
   "bugs": "https://github.com/someimportantcompany/data-sets/issues",
-  "homepage": "https://github.com/someimportantcompany/data-sets/tree/main/packages/pokemon",
+  "homepage": "https://github.com/someimportantcompany/data-sets/tree/main/packages/currencies",
   "author": "jdrydn <james@jdrydn.com> (https://jdrydn.com)",
   "license": "MIT",
-  "keywords": ["static", "data", "sets", "pokemon", "pokedex"],
+  "keywords": ["static", "data", "sets", "currencies", "iso4217"],
   "exports": {
     ".": {
       "types": "./index.d.ts",
