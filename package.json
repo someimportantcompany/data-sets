@@ -24,6 +24,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.29.0",
+    "jsr": "^0.14.3",
     "typescript": "^5.9.3",
     "vitest": "^4.1.0"
   },
