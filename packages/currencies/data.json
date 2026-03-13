@@ -1,0 +1,1640 @@
+[
+  {
+    "code": "AED",
+    "numericCode": "784",
+    "name": "UAE Dirham",
+    "symbol": "د.إ",
+    "decimalPlaces": 2,
+    "countries": [
+      "United Arab Emirates"
+    ]
+  },
+  {
+    "code": "AFN",
+    "numericCode": "971",
+    "name": "Afghani",
+    "symbol": "؋",
+    "decimalPlaces": 2,
+    "countries": [
+      "Afghanistan"
+    ]
+  },
+  {
+    "code": "ALL",
+    "numericCode": "008",
+    "name": "Lek",
+    "symbol": "L",
+    "decimalPlaces": 2,
+    "countries": [
+      "Albania"
+    ]
+  },
+  {
+    "code": "AMD",
+    "numericCode": "051",
+    "name": "Armenian Dram",
+    "symbol": "֏",
+    "decimalPlaces": 2,
+    "countries": [
+      "Armenia"
+    ]
+  },
+  {
+    "code": "AOA",
+    "numericCode": "973",
+    "name": "Kwanza",
+    "symbol": "Kz",
+    "decimalPlaces": 2,
+    "countries": [
+      "Angola"
+    ]
+  },
+  {
+    "code": "ARS",
+    "numericCode": "032",
+    "name": "Argentine Peso",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Argentina"
+    ]
+  },
+  {
+    "code": "AUD",
+    "numericCode": "036",
+    "name": "Australian Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Australia",
+      "Christmas Island",
+      "Cocos (Keeling) Islands",
+      "Heard Island and McDonald Islands",
+      "Kiribati",
+      "Nauru",
+      "Norfolk Island",
+      "Tuvalu"
+    ]
+  },
+  {
+    "code": "AWG",
+    "numericCode": "533",
+    "name": "Aruban Florin",
+    "symbol": "ƒ",
+    "decimalPlaces": 2,
+    "countries": [
+      "Aruba"
+    ]
+  },
+  {
+    "code": "AZN",
+    "numericCode": "944",
+    "name": "Azerbaijan Manat",
+    "symbol": "₼",
+    "decimalPlaces": 2,
+    "countries": [
+      "Azerbaijan"
+    ]
+  },
+  {
+    "code": "BAM",
+    "numericCode": "977",
+    "name": "Convertible Mark",
+    "symbol": "KM",
+    "decimalPlaces": 2,
+    "countries": [
+      "Bosnia and Herzegovina"
+    ]
+  },
+  {
+    "code": "BBD",
+    "numericCode": "052",
+    "name": "Barbados Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Barbados"
+    ]
+  },
+  {
+    "code": "BDT",
+    "numericCode": "050",
+    "name": "Taka",
+    "symbol": "৳",
+    "decimalPlaces": 2,
+    "countries": [
+      "Bangladesh"
+    ]
+  },
+  {
+    "code": "BHD",
+    "numericCode": "048",
+    "name": "Bahraini Dinar",
+    "symbol": ".د.ب",
+    "decimalPlaces": 3,
+    "countries": [
+      "Bahrain"
+    ]
+  },
+  {
+    "code": "BIF",
+    "numericCode": "108",
+    "name": "Burundi Franc",
+    "symbol": "FBu",
+    "decimalPlaces": 0,
+    "countries": [
+      "Burundi"
+    ]
+  },
+  {
+    "code": "BMD",
+    "numericCode": "060",
+    "name": "Bermudian Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Bermuda"
+    ]
+  },
+  {
+    "code": "BND",
+    "numericCode": "096",
+    "name": "Brunei Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Brunei Darussalam"
+    ]
+  },
+  {
+    "code": "BOB",
+    "numericCode": "068",
+    "name": "Boliviano",
+    "symbol": "Bs.",
+    "decimalPlaces": 2,
+    "countries": [
+      "Bolivia"
+    ]
+  },
+  {
+    "code": "BRL",
+    "numericCode": "986",
+    "name": "Brazilian Real",
+    "symbol": "R$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Brazil"
+    ]
+  },
+  {
+    "code": "BSD",
+    "numericCode": "044",
+    "name": "Bahamian Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Bahamas"
+    ]
+  },
+  {
+    "code": "BTN",
+    "numericCode": "064",
+    "name": "Ngultrum",
+    "symbol": "Nu.",
+    "decimalPlaces": 2,
+    "countries": [
+      "Bhutan"
+    ]
+  },
+  {
+    "code": "BWP",
+    "numericCode": "072",
+    "name": "Pula",
+    "symbol": "P",
+    "decimalPlaces": 2,
+    "countries": [
+      "Botswana"
+    ]
+  },
+  {
+    "code": "BYN",
+    "numericCode": "933",
+    "name": "Belarusian Ruble",
+    "symbol": "Br",
+    "decimalPlaces": 2,
+    "countries": [
+      "Belarus"
+    ]
+  },
+  {
+    "code": "BZD",
+    "numericCode": "084",
+    "name": "Belize Dollar",
+    "symbol": "BZ$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Belize"
+    ]
+  },
+  {
+    "code": "CAD",
+    "numericCode": "124",
+    "name": "Canadian Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Canada"
+    ]
+  },
+  {
+    "code": "CDF",
+    "numericCode": "976",
+    "name": "Congolese Franc",
+    "symbol": "FC",
+    "decimalPlaces": 2,
+    "countries": [
+      "Congo (Democratic Republic)"
+    ]
+  },
+  {
+    "code": "CHF",
+    "numericCode": "756",
+    "name": "Swiss Franc",
+    "symbol": "CHF",
+    "decimalPlaces": 2,
+    "countries": [
+      "Switzerland",
+      "Liechtenstein"
+    ]
+  },
+  {
+    "code": "CLP",
+    "numericCode": "152",
+    "name": "Chilean Peso",
+    "symbol": "$",
+    "decimalPlaces": 0,
+    "countries": [
+      "Chile"
+    ]
+  },
+  {
+    "code": "CNY",
+    "numericCode": "156",
+    "name": "Yuan Renminbi",
+    "symbol": "¥",
+    "decimalPlaces": 2,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "code": "COP",
+    "numericCode": "170",
+    "name": "Colombian Peso",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Colombia"
+    ]
+  },
+  {
+    "code": "CRC",
+    "numericCode": "188",
+    "name": "Costa Rican Colon",
+    "symbol": "₡",
+    "decimalPlaces": 2,
+    "countries": [
+      "Costa Rica"
+    ]
+  },
+  {
+    "code": "CUP",
+    "numericCode": "192",
+    "name": "Cuban Peso",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Cuba"
+    ]
+  },
+  {
+    "code": "CVE",
+    "numericCode": "132",
+    "name": "Cabo Verde Escudo",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Cabo Verde"
+    ]
+  },
+  {
+    "code": "CZK",
+    "numericCode": "203",
+    "name": "Czech Koruna",
+    "symbol": "Kč",
+    "decimalPlaces": 2,
+    "countries": [
+      "Czech Republic"
+    ]
+  },
+  {
+    "code": "DJF",
+    "numericCode": "262",
+    "name": "Djibouti Franc",
+    "symbol": "Fdj",
+    "decimalPlaces": 0,
+    "countries": [
+      "Djibouti"
+    ]
+  },
+  {
+    "code": "DKK",
+    "numericCode": "208",
+    "name": "Danish Krone",
+    "symbol": "kr",
+    "decimalPlaces": 2,
+    "countries": [
+      "Denmark",
+      "Faroe Islands",
+      "Greenland"
+    ]
+  },
+  {
+    "code": "DOP",
+    "numericCode": "214",
+    "name": "Dominican Peso",
+    "symbol": "RD$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Dominican Republic"
+    ]
+  },
+  {
+    "code": "DZD",
+    "numericCode": "012",
+    "name": "Algerian Dinar",
+    "symbol": "د.ج",
+    "decimalPlaces": 2,
+    "countries": [
+      "Algeria"
+    ]
+  },
+  {
+    "code": "EGP",
+    "numericCode": "818",
+    "name": "Egyptian Pound",
+    "symbol": "E£",
+    "decimalPlaces": 2,
+    "countries": [
+      "Egypt"
+    ]
+  },
+  {
+    "code": "ERN",
+    "numericCode": "232",
+    "name": "Nakfa",
+    "symbol": "Nkf",
+    "decimalPlaces": 2,
+    "countries": [
+      "Eritrea"
+    ]
+  },
+  {
+    "code": "ETB",
+    "numericCode": "230",
+    "name": "Ethiopian Birr",
+    "symbol": "Br",
+    "decimalPlaces": 2,
+    "countries": [
+      "Ethiopia"
+    ]
+  },
+  {
+    "code": "EUR",
+    "numericCode": "978",
+    "name": "Euro",
+    "symbol": "€",
+    "decimalPlaces": 2,
+    "countries": [
+      "Andorra",
+      "Austria",
+      "Belgium",
+      "Bulgaria",
+      "Croatia",
+      "Cyprus",
+      "Estonia",
+      "Finland",
+      "France",
+      "French Guiana",
+      "French Southern Territories",
+      "Germany",
+      "Greece",
+      "Guadeloupe",
+      "Holy See",
+      "Ireland",
+      "Italy",
+      "Latvia",
+      "Lithuania",
+      "Luxembourg",
+      "Malta",
+      "Martinique",
+      "Mayotte",
+      "Monaco",
+      "Montenegro",
+      "Netherlands",
+      "Portugal",
+      "Reunion",
+      "Saint Barthelemy",
+      "Saint Martin (French part)",
+      "Saint Pierre and Miquelon",
+      "San Marino",
+      "Slovakia",
+      "Slovenia",
+      "Spain",
+      "Aland Islands"
+    ]
+  },
+  {
+    "code": "FJD",
+    "numericCode": "242",
+    "name": "Fiji Dollar",
+    "symbol": "FJ$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Fiji"
+    ]
+  },
+  {
+    "code": "FKP",
+    "numericCode": "238",
+    "name": "Falkland Islands Pound",
+    "symbol": "£",
+    "decimalPlaces": 2,
+    "countries": [
+      "Falkland Islands"
+    ]
+  },
+  {
+    "code": "GBP",
+    "numericCode": "826",
+    "name": "Pound Sterling",
+    "symbol": "£",
+    "decimalPlaces": 2,
+    "countries": [
+      "United Kingdom",
+      "Guernsey",
+      "Isle of Man",
+      "Jersey"
+    ]
+  },
+  {
+    "code": "GEL",
+    "numericCode": "981",
+    "name": "Lari",
+    "symbol": "₾",
+    "decimalPlaces": 2,
+    "countries": [
+      "Georgia"
+    ]
+  },
+  {
+    "code": "GHS",
+    "numericCode": "936",
+    "name": "Ghana Cedi",
+    "symbol": "GH₵",
+    "decimalPlaces": 2,
+    "countries": [
+      "Ghana"
+    ]
+  },
+  {
+    "code": "GIP",
+    "numericCode": "292",
+    "name": "Gibraltar Pound",
+    "symbol": "£",
+    "decimalPlaces": 2,
+    "countries": [
+      "Gibraltar"
+    ]
+  },
+  {
+    "code": "GMD",
+    "numericCode": "270",
+    "name": "Dalasi",
+    "symbol": "D",
+    "decimalPlaces": 2,
+    "countries": [
+      "Gambia"
+    ]
+  },
+  {
+    "code": "GNF",
+    "numericCode": "324",
+    "name": "Guinean Franc",
+    "symbol": "FG",
+    "decimalPlaces": 0,
+    "countries": [
+      "Guinea"
+    ]
+  },
+  {
+    "code": "GTQ",
+    "numericCode": "320",
+    "name": "Quetzal",
+    "symbol": "Q",
+    "decimalPlaces": 2,
+    "countries": [
+      "Guatemala"
+    ]
+  },
+  {
+    "code": "GYD",
+    "numericCode": "328",
+    "name": "Guyana Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Guyana"
+    ]
+  },
+  {
+    "code": "HKD",
+    "numericCode": "344",
+    "name": "Hong Kong Dollar",
+    "symbol": "HK$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Hong Kong"
+    ]
+  },
+  {
+    "code": "HNL",
+    "numericCode": "340",
+    "name": "Lempira",
+    "symbol": "L",
+    "decimalPlaces": 2,
+    "countries": [
+      "Honduras"
+    ]
+  },
+  {
+    "code": "HTG",
+    "numericCode": "332",
+    "name": "Gourde",
+    "symbol": "G",
+    "decimalPlaces": 2,
+    "countries": [
+      "Haiti"
+    ]
+  },
+  {
+    "code": "HUF",
+    "numericCode": "348",
+    "name": "Forint",
+    "symbol": "Ft",
+    "decimalPlaces": 2,
+    "countries": [
+      "Hungary"
+    ]
+  },
+  {
+    "code": "IDR",
+    "numericCode": "360",
+    "name": "Rupiah",
+    "symbol": "Rp",
+    "decimalPlaces": 2,
+    "countries": [
+      "Indonesia"
+    ]
+  },
+  {
+    "code": "ILS",
+    "numericCode": "376",
+    "name": "New Israeli Sheqel",
+    "symbol": "₪",
+    "decimalPlaces": 2,
+    "countries": [
+      "Israel"
+    ]
+  },
+  {
+    "code": "INR",
+    "numericCode": "356",
+    "name": "Indian Rupee",
+    "symbol": "₹",
+    "decimalPlaces": 2,
+    "countries": [
+      "India",
+      "Bhutan"
+    ]
+  },
+  {
+    "code": "IQD",
+    "numericCode": "368",
+    "name": "Iraqi Dinar",
+    "symbol": "ع.د",
+    "decimalPlaces": 3,
+    "countries": [
+      "Iraq"
+    ]
+  },
+  {
+    "code": "IRR",
+    "numericCode": "364",
+    "name": "Iranian Rial",
+    "symbol": "﷼",
+    "decimalPlaces": 2,
+    "countries": [
+      "Iran"
+    ]
+  },
+  {
+    "code": "ISK",
+    "numericCode": "352",
+    "name": "Iceland Krona",
+    "symbol": "kr",
+    "decimalPlaces": 0,
+    "countries": [
+      "Iceland"
+    ]
+  },
+  {
+    "code": "JMD",
+    "numericCode": "388",
+    "name": "Jamaican Dollar",
+    "symbol": "J$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Jamaica"
+    ]
+  },
+  {
+    "code": "JOD",
+    "numericCode": "400",
+    "name": "Jordanian Dinar",
+    "symbol": "د.أ",
+    "decimalPlaces": 3,
+    "countries": [
+      "Jordan"
+    ]
+  },
+  {
+    "code": "JPY",
+    "numericCode": "392",
+    "name": "Yen",
+    "symbol": "¥",
+    "decimalPlaces": 0,
+    "countries": [
+      "Japan"
+    ]
+  },
+  {
+    "code": "KES",
+    "numericCode": "404",
+    "name": "Kenyan Shilling",
+    "symbol": "KSh",
+    "decimalPlaces": 2,
+    "countries": [
+      "Kenya"
+    ]
+  },
+  {
+    "code": "KGS",
+    "numericCode": "417",
+    "name": "Som",
+    "symbol": "С",
+    "decimalPlaces": 2,
+    "countries": [
+      "Kyrgyzstan"
+    ]
+  },
+  {
+    "code": "KHR",
+    "numericCode": "116",
+    "name": "Riel",
+    "symbol": "៛",
+    "decimalPlaces": 2,
+    "countries": [
+      "Cambodia"
+    ]
+  },
+  {
+    "code": "KMF",
+    "numericCode": "174",
+    "name": "Comorian Franc",
+    "symbol": "CF",
+    "decimalPlaces": 0,
+    "countries": [
+      "Comoros"
+    ]
+  },
+  {
+    "code": "KPW",
+    "numericCode": "408",
+    "name": "North Korean Won",
+    "symbol": "₩",
+    "decimalPlaces": 2,
+    "countries": [
+      "Korea (North)"
+    ]
+  },
+  {
+    "code": "KRW",
+    "numericCode": "410",
+    "name": "Won",
+    "symbol": "₩",
+    "decimalPlaces": 0,
+    "countries": [
+      "Korea (South)"
+    ]
+  },
+  {
+    "code": "KWD",
+    "numericCode": "414",
+    "name": "Kuwaiti Dinar",
+    "symbol": "د.ك",
+    "decimalPlaces": 3,
+    "countries": [
+      "Kuwait"
+    ]
+  },
+  {
+    "code": "KYD",
+    "numericCode": "136",
+    "name": "Cayman Islands Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Cayman Islands"
+    ]
+  },
+  {
+    "code": "KZT",
+    "numericCode": "398",
+    "name": "Tenge",
+    "symbol": "₸",
+    "decimalPlaces": 2,
+    "countries": [
+      "Kazakhstan"
+    ]
+  },
+  {
+    "code": "LAK",
+    "numericCode": "418",
+    "name": "Lao Kip",
+    "symbol": "₭",
+    "decimalPlaces": 2,
+    "countries": [
+      "Laos"
+    ]
+  },
+  {
+    "code": "LBP",
+    "numericCode": "422",
+    "name": "Lebanese Pound",
+    "symbol": "ل.ل",
+    "decimalPlaces": 2,
+    "countries": [
+      "Lebanon"
+    ]
+  },
+  {
+    "code": "LKR",
+    "numericCode": "144",
+    "name": "Sri Lanka Rupee",
+    "symbol": "Rs",
+    "decimalPlaces": 2,
+    "countries": [
+      "Sri Lanka"
+    ]
+  },
+  {
+    "code": "LRD",
+    "numericCode": "430",
+    "name": "Liberian Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Liberia"
+    ]
+  },
+  {
+    "code": "LSL",
+    "numericCode": "426",
+    "name": "Loti",
+    "symbol": "L",
+    "decimalPlaces": 2,
+    "countries": [
+      "Lesotho"
+    ]
+  },
+  {
+    "code": "LYD",
+    "numericCode": "434",
+    "name": "Libyan Dinar",
+    "symbol": "ل.د",
+    "decimalPlaces": 3,
+    "countries": [
+      "Libya"
+    ]
+  },
+  {
+    "code": "MAD",
+    "numericCode": "504",
+    "name": "Moroccan Dirham",
+    "symbol": "د.م.",
+    "decimalPlaces": 2,
+    "countries": [
+      "Morocco",
+      "Western Sahara"
+    ]
+  },
+  {
+    "code": "MDL",
+    "numericCode": "498",
+    "name": "Moldovan Leu",
+    "symbol": "L",
+    "decimalPlaces": 2,
+    "countries": [
+      "Moldova"
+    ]
+  },
+  {
+    "code": "MGA",
+    "numericCode": "969",
+    "name": "Malagasy Ariary",
+    "symbol": "Ar",
+    "decimalPlaces": 2,
+    "countries": [
+      "Madagascar"
+    ]
+  },
+  {
+    "code": "MKD",
+    "numericCode": "807",
+    "name": "Denar",
+    "symbol": "ден",
+    "decimalPlaces": 2,
+    "countries": [
+      "North Macedonia"
+    ]
+  },
+  {
+    "code": "MMK",
+    "numericCode": "104",
+    "name": "Kyat",
+    "symbol": "K",
+    "decimalPlaces": 2,
+    "countries": [
+      "Myanmar"
+    ]
+  },
+  {
+    "code": "MNT",
+    "numericCode": "496",
+    "name": "Tugrik",
+    "symbol": "₮",
+    "decimalPlaces": 2,
+    "countries": [
+      "Mongolia"
+    ]
+  },
+  {
+    "code": "MOP",
+    "numericCode": "446",
+    "name": "Pataca",
+    "symbol": "MOP$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Macao"
+    ]
+  },
+  {
+    "code": "MRU",
+    "numericCode": "929",
+    "name": "Ouguiya",
+    "symbol": "UM",
+    "decimalPlaces": 2,
+    "countries": [
+      "Mauritania"
+    ]
+  },
+  {
+    "code": "MUR",
+    "numericCode": "480",
+    "name": "Mauritius Rupee",
+    "symbol": "₨",
+    "decimalPlaces": 2,
+    "countries": [
+      "Mauritius"
+    ]
+  },
+  {
+    "code": "MVR",
+    "numericCode": "462",
+    "name": "Rufiyaa",
+    "symbol": "Rf",
+    "decimalPlaces": 2,
+    "countries": [
+      "Maldives"
+    ]
+  },
+  {
+    "code": "MWK",
+    "numericCode": "454",
+    "name": "Malawi Kwacha",
+    "symbol": "MK",
+    "decimalPlaces": 2,
+    "countries": [
+      "Malawi"
+    ]
+  },
+  {
+    "code": "MXN",
+    "numericCode": "484",
+    "name": "Mexican Peso",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Mexico"
+    ]
+  },
+  {
+    "code": "MYR",
+    "numericCode": "458",
+    "name": "Malaysian Ringgit",
+    "symbol": "RM",
+    "decimalPlaces": 2,
+    "countries": [
+      "Malaysia"
+    ]
+  },
+  {
+    "code": "MZN",
+    "numericCode": "943",
+    "name": "Mozambique Metical",
+    "symbol": "MT",
+    "decimalPlaces": 2,
+    "countries": [
+      "Mozambique"
+    ]
+  },
+  {
+    "code": "NAD",
+    "numericCode": "516",
+    "name": "Namibia Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Namibia"
+    ]
+  },
+  {
+    "code": "NGN",
+    "numericCode": "566",
+    "name": "Naira",
+    "symbol": "₦",
+    "decimalPlaces": 2,
+    "countries": [
+      "Nigeria"
+    ]
+  },
+  {
+    "code": "NIO",
+    "numericCode": "558",
+    "name": "Cordoba Oro",
+    "symbol": "C$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Nicaragua"
+    ]
+  },
+  {
+    "code": "NOK",
+    "numericCode": "578",
+    "name": "Norwegian Krone",
+    "symbol": "kr",
+    "decimalPlaces": 2,
+    "countries": [
+      "Norway",
+      "Bouvet Island",
+      "Svalbard and Jan Mayen"
+    ]
+  },
+  {
+    "code": "NPR",
+    "numericCode": "524",
+    "name": "Nepalese Rupee",
+    "symbol": "₨",
+    "decimalPlaces": 2,
+    "countries": [
+      "Nepal"
+    ]
+  },
+  {
+    "code": "NZD",
+    "numericCode": "554",
+    "name": "New Zealand Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "New Zealand",
+      "Cook Islands",
+      "Niue",
+      "Pitcairn",
+      "Tokelau"
+    ]
+  },
+  {
+    "code": "OMR",
+    "numericCode": "512",
+    "name": "Rial Omani",
+    "symbol": "ر.ع.",
+    "decimalPlaces": 3,
+    "countries": [
+      "Oman"
+    ]
+  },
+  {
+    "code": "PAB",
+    "numericCode": "590",
+    "name": "Balboa",
+    "symbol": "B/.",
+    "decimalPlaces": 2,
+    "countries": [
+      "Panama"
+    ]
+  },
+  {
+    "code": "PEN",
+    "numericCode": "604",
+    "name": "Sol",
+    "symbol": "S/",
+    "decimalPlaces": 2,
+    "countries": [
+      "Peru"
+    ]
+  },
+  {
+    "code": "PGK",
+    "numericCode": "598",
+    "name": "Kina",
+    "symbol": "K",
+    "decimalPlaces": 2,
+    "countries": [
+      "Papua New Guinea"
+    ]
+  },
+  {
+    "code": "PHP",
+    "numericCode": "608",
+    "name": "Philippine Peso",
+    "symbol": "₱",
+    "decimalPlaces": 2,
+    "countries": [
+      "Philippines"
+    ]
+  },
+  {
+    "code": "PKR",
+    "numericCode": "586",
+    "name": "Pakistan Rupee",
+    "symbol": "₨",
+    "decimalPlaces": 2,
+    "countries": [
+      "Pakistan"
+    ]
+  },
+  {
+    "code": "PLN",
+    "numericCode": "985",
+    "name": "Zloty",
+    "symbol": "zł",
+    "decimalPlaces": 2,
+    "countries": [
+      "Poland"
+    ]
+  },
+  {
+    "code": "PYG",
+    "numericCode": "600",
+    "name": "Guarani",
+    "symbol": "₲",
+    "decimalPlaces": 0,
+    "countries": [
+      "Paraguay"
+    ]
+  },
+  {
+    "code": "QAR",
+    "numericCode": "634",
+    "name": "Qatari Rial",
+    "symbol": "ر.ق",
+    "decimalPlaces": 2,
+    "countries": [
+      "Qatar"
+    ]
+  },
+  {
+    "code": "RON",
+    "numericCode": "946",
+    "name": "Romanian Leu",
+    "symbol": "lei",
+    "decimalPlaces": 2,
+    "countries": [
+      "Romania"
+    ]
+  },
+  {
+    "code": "RSD",
+    "numericCode": "941",
+    "name": "Serbian Dinar",
+    "symbol": "din.",
+    "decimalPlaces": 2,
+    "countries": [
+      "Serbia"
+    ]
+  },
+  {
+    "code": "RUB",
+    "numericCode": "643",
+    "name": "Russian Ruble",
+    "symbol": "₽",
+    "decimalPlaces": 2,
+    "countries": [
+      "Russia"
+    ]
+  },
+  {
+    "code": "RWF",
+    "numericCode": "646",
+    "name": "Rwanda Franc",
+    "symbol": "FRw",
+    "decimalPlaces": 0,
+    "countries": [
+      "Rwanda"
+    ]
+  },
+  {
+    "code": "SAR",
+    "numericCode": "682",
+    "name": "Saudi Riyal",
+    "symbol": "ر.س",
+    "decimalPlaces": 2,
+    "countries": [
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "code": "SBD",
+    "numericCode": "090",
+    "name": "Solomon Islands Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Solomon Islands"
+    ]
+  },
+  {
+    "code": "SCR",
+    "numericCode": "690",
+    "name": "Seychelles Rupee",
+    "symbol": "₨",
+    "decimalPlaces": 2,
+    "countries": [
+      "Seychelles"
+    ]
+  },
+  {
+    "code": "SDG",
+    "numericCode": "938",
+    "name": "Sudanese Pound",
+    "symbol": "ج.س",
+    "decimalPlaces": 2,
+    "countries": [
+      "Sudan"
+    ]
+  },
+  {
+    "code": "SEK",
+    "numericCode": "752",
+    "name": "Swedish Krona",
+    "symbol": "kr",
+    "decimalPlaces": 2,
+    "countries": [
+      "Sweden"
+    ]
+  },
+  {
+    "code": "SGD",
+    "numericCode": "702",
+    "name": "Singapore Dollar",
+    "symbol": "S$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Singapore"
+    ]
+  },
+  {
+    "code": "SHP",
+    "numericCode": "654",
+    "name": "Saint Helena Pound",
+    "symbol": "£",
+    "decimalPlaces": 2,
+    "countries": [
+      "Saint Helena, Ascension and Tristan da Cunha"
+    ]
+  },
+  {
+    "code": "SLE",
+    "numericCode": "925",
+    "name": "Leone",
+    "symbol": "Le",
+    "decimalPlaces": 2,
+    "countries": [
+      "Sierra Leone"
+    ]
+  },
+  {
+    "code": "SOS",
+    "numericCode": "706",
+    "name": "Somali Shilling",
+    "symbol": "Sh",
+    "decimalPlaces": 2,
+    "countries": [
+      "Somalia"
+    ]
+  },
+  {
+    "code": "SRD",
+    "numericCode": "968",
+    "name": "Surinam Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Suriname"
+    ]
+  },
+  {
+    "code": "SSP",
+    "numericCode": "728",
+    "name": "South Sudanese Pound",
+    "symbol": "SS£",
+    "decimalPlaces": 2,
+    "countries": [
+      "South Sudan"
+    ]
+  },
+  {
+    "code": "STN",
+    "numericCode": "930",
+    "name": "Dobra",
+    "symbol": "Db",
+    "decimalPlaces": 2,
+    "countries": [
+      "Sao Tome and Principe"
+    ]
+  },
+  {
+    "code": "SVC",
+    "numericCode": "222",
+    "name": "El Salvador Colon",
+    "symbol": "₡",
+    "decimalPlaces": 2,
+    "countries": [
+      "El Salvador"
+    ]
+  },
+  {
+    "code": "SYP",
+    "numericCode": "760",
+    "name": "Syrian Pound",
+    "symbol": "£S",
+    "decimalPlaces": 2,
+    "countries": [
+      "Syria"
+    ]
+  },
+  {
+    "code": "SZL",
+    "numericCode": "748",
+    "name": "Lilangeni",
+    "symbol": "E",
+    "decimalPlaces": 2,
+    "countries": [
+      "Eswatini"
+    ]
+  },
+  {
+    "code": "THB",
+    "numericCode": "764",
+    "name": "Baht",
+    "symbol": "฿",
+    "decimalPlaces": 2,
+    "countries": [
+      "Thailand"
+    ]
+  },
+  {
+    "code": "TJS",
+    "numericCode": "972",
+    "name": "Somoni",
+    "symbol": "SM",
+    "decimalPlaces": 2,
+    "countries": [
+      "Tajikistan"
+    ]
+  },
+  {
+    "code": "TMT",
+    "numericCode": "934",
+    "name": "Turkmenistan New Manat",
+    "symbol": "T",
+    "decimalPlaces": 2,
+    "countries": [
+      "Turkmenistan"
+    ]
+  },
+  {
+    "code": "TND",
+    "numericCode": "788",
+    "name": "Tunisian Dinar",
+    "symbol": "د.ت",
+    "decimalPlaces": 3,
+    "countries": [
+      "Tunisia"
+    ]
+  },
+  {
+    "code": "TOP",
+    "numericCode": "776",
+    "name": "Pa'anga",
+    "symbol": "T$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Tonga"
+    ]
+  },
+  {
+    "code": "TRY",
+    "numericCode": "949",
+    "name": "Turkish Lira",
+    "symbol": "₺",
+    "decimalPlaces": 2,
+    "countries": [
+      "Turkey"
+    ]
+  },
+  {
+    "code": "TTD",
+    "numericCode": "780",
+    "name": "Trinidad and Tobago Dollar",
+    "symbol": "TT$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Trinidad and Tobago"
+    ]
+  },
+  {
+    "code": "TWD",
+    "numericCode": "901",
+    "name": "New Taiwan Dollar",
+    "symbol": "NT$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Taiwan"
+    ]
+  },
+  {
+    "code": "TZS",
+    "numericCode": "834",
+    "name": "Tanzanian Shilling",
+    "symbol": "TSh",
+    "decimalPlaces": 2,
+    "countries": [
+      "Tanzania"
+    ]
+  },
+  {
+    "code": "UAH",
+    "numericCode": "980",
+    "name": "Hryvnia",
+    "symbol": "₴",
+    "decimalPlaces": 2,
+    "countries": [
+      "Ukraine"
+    ]
+  },
+  {
+    "code": "UGX",
+    "numericCode": "800",
+    "name": "Uganda Shilling",
+    "symbol": "USh",
+    "decimalPlaces": 0,
+    "countries": [
+      "Uganda"
+    ]
+  },
+  {
+    "code": "USD",
+    "numericCode": "840",
+    "name": "US Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "United States",
+      "American Samoa",
+      "Bonaire, Sint Eustatius and Saba",
+      "British Indian Ocean Territory",
+      "Ecuador",
+      "El Salvador",
+      "Guam",
+      "Haiti",
+      "Marshall Islands",
+      "Micronesia",
+      "Northern Mariana Islands",
+      "Palau",
+      "Panama",
+      "Puerto Rico",
+      "Timor-Leste",
+      "Turks and Caicos Islands",
+      "US Minor Outlying Islands",
+      "Virgin Islands (British)",
+      "Virgin Islands (US)"
+    ]
+  },
+  {
+    "code": "UYU",
+    "numericCode": "858",
+    "name": "Peso Uruguayo",
+    "symbol": "$U",
+    "decimalPlaces": 2,
+    "countries": [
+      "Uruguay"
+    ]
+  },
+  {
+    "code": "UZS",
+    "numericCode": "860",
+    "name": "Uzbekistan Sum",
+    "symbol": "сўм",
+    "decimalPlaces": 2,
+    "countries": [
+      "Uzbekistan"
+    ]
+  },
+  {
+    "code": "VES",
+    "numericCode": "928",
+    "name": "Bolivar Soberano",
+    "symbol": "Bs.S",
+    "decimalPlaces": 2,
+    "countries": [
+      "Venezuela"
+    ]
+  },
+  {
+    "code": "VND",
+    "numericCode": "704",
+    "name": "Dong",
+    "symbol": "₫",
+    "decimalPlaces": 0,
+    "countries": [
+      "Vietnam"
+    ]
+  },
+  {
+    "code": "VUV",
+    "numericCode": "548",
+    "name": "Vatu",
+    "symbol": "VT",
+    "decimalPlaces": 0,
+    "countries": [
+      "Vanuatu"
+    ]
+  },
+  {
+    "code": "WST",
+    "numericCode": "882",
+    "name": "Tala",
+    "symbol": "WS$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Samoa"
+    ]
+  },
+  {
+    "code": "XAF",
+    "numericCode": "950",
+    "name": "CFA Franc BEAC",
+    "symbol": "FCFA",
+    "decimalPlaces": 0,
+    "countries": [
+      "Cameroon",
+      "Central African Republic",
+      "Chad",
+      "Congo",
+      "Equatorial Guinea",
+      "Gabon"
+    ]
+  },
+  {
+    "code": "XCD",
+    "numericCode": "951",
+    "name": "East Caribbean Dollar",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Anguilla",
+      "Antigua and Barbuda",
+      "Dominica",
+      "Grenada",
+      "Montserrat",
+      "Saint Kitts and Nevis",
+      "Saint Lucia",
+      "Saint Vincent and the Grenadines"
+    ]
+  },
+  {
+    "code": "XCG",
+    "numericCode": "532",
+    "name": "Caribbean Guilder",
+    "symbol": "Cg",
+    "decimalPlaces": 2,
+    "countries": [
+      "Curacao",
+      "Sint Maarten (Dutch part)"
+    ]
+  },
+  {
+    "code": "XOF",
+    "numericCode": "952",
+    "name": "CFA Franc BCEAO",
+    "symbol": "CFA",
+    "decimalPlaces": 0,
+    "countries": [
+      "Benin",
+      "Burkina Faso",
+      "Cote d'Ivoire",
+      "Guinea-Bissau",
+      "Mali",
+      "Niger",
+      "Senegal",
+      "Togo"
+    ]
+  },
+  {
+    "code": "XPF",
+    "numericCode": "953",
+    "name": "CFP Franc",
+    "symbol": "F",
+    "decimalPlaces": 0,
+    "countries": [
+      "French Polynesia",
+      "New Caledonia",
+      "Wallis and Futuna"
+    ]
+  },
+  {
+    "code": "YER",
+    "numericCode": "886",
+    "name": "Yemeni Rial",
+    "symbol": "﷼",
+    "decimalPlaces": 2,
+    "countries": [
+      "Yemen"
+    ]
+  },
+  {
+    "code": "ZAR",
+    "numericCode": "710",
+    "name": "Rand",
+    "symbol": "R",
+    "decimalPlaces": 2,
+    "countries": [
+      "South Africa",
+      "Lesotho",
+      "Namibia"
+    ]
+  },
+  {
+    "code": "ZMW",
+    "numericCode": "967",
+    "name": "Zambian Kwacha",
+    "symbol": "ZK",
+    "decimalPlaces": 2,
+    "countries": [
+      "Zambia"
+    ]
+  },
+  {
+    "code": "ZWG",
+    "numericCode": "924",
+    "name": "Zimbabwe Gold",
+    "symbol": "$",
+    "decimalPlaces": 2,
+    "countries": [
+      "Zimbabwe"
+    ]
+  }
+]

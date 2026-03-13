@@ -1,0 +1,33 @@
+{
+  "name": "@data-sets/repo",
+  "description": "A collection of public data sets",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "pnpm test:unit && pnpm test:integration",
+    "test:unit": "vitest run --config ./vitest.config.ts",
+    "test:integration": "vitest run --config ./integration-tests/vitest.config.ts"
+  },
+  "repository": "https://github.com/someimportantcompany/data-sets.git",
+  "bugs": "https://github.com/someimportantcompany/data-sets/issues",
+  "homepage": "https://github.com/someimportantcompany/data-sets",
+  "author": "jdrydn <james@jdrydn.com> (https://jdrydn.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@data-sets/countries": "workspace:*",
+    "@data-sets/currencies": "workspace:*",
+    "@data-sets/pokemon": "workspace:*",
+    "@types/node": "^18.19.130",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.29.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  },
+  "engines": {
+    "node": ">= 18.0.0"
+  }
+}
